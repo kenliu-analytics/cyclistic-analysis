@@ -12,6 +12,7 @@ cyclistic-analysis/
 ├── scripts/                           # R scripts for data processing and analysis
 ├── images/                            # Visualization images
 └── data/                              # Data directory (not tracked in git)
+└── docs/                              # Output HTML file
 ```
 
 ## Requirements
