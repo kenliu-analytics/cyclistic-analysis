@@ -2,7 +2,7 @@
 
 ## View the Analysis Report
 
-[![View Analysis Report](https://img.shields.io/badge/Analysis%20Report-View%20Now-brightgreen)](https://<username>.github.io/<repository>/)
+[![View Analysis Report](https://img.shields.io/badge/Analysis%20Report-View%20Now-brightgreen)](https://kenliu-analytics.github.io/cyclistic-analysis/)
 
 ## Overview
 This project analyzes Cyclistic bike-share data from December 2023 to November 2024 to identify conversion strategies for turning casual riders into annual members. The analysis includes temporal patterns, user behavior analysis, and geographic usage patterns to develop data-driven marketing recommendations.
