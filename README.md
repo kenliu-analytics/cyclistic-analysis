@@ -34,6 +34,33 @@ cyclistic-analysis/
 - patchwork
 - viridis
 
+## Data Source
+This analysis uses Cyclistic bike-share historical trip data from December 2023 to November 2024. The complete dataset is available at [Divvy Bikes Historical Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html).
+
+### Data Structure
+Each trip record contains:
+  ```
+ride_id            : unique identifier for each ride
+rideable_type      : type of bike (classic, electric, docked)
+started_at         : start time of trip
+ended_at           : end time of trip
+start_station_name : name of start station
+start_station_id   : ID of start station
+end_station_name   : name of end station
+end_station_id     : ID of end station
+start_lat          : start location latitude
+start_lng          : start location longitude
+end_lat            : end location latitude
+end_lng            : end location longitude
+member_casual      : rider type (member or casual)
+```
+
+### Sample Data
+A sample dataset (`data/raw/sample_cyclistic_data.csv`) is included in this repository for demonstration purposes. To reproduce the full analysis:
+  1. Download the complete dataset from the source above
+2. Place the CSV files in the `data/raw` directory
+3. Run the analysis scripts
+
 ## Setup Instructions
 1. Clone this repository
 2. Install required R packages:
@@ -42,9 +69,8 @@ install.packages(c("tidyverse", "ggplot2", "knitr", "dplyr", "kableExtra",
                   "here", "lubridate", "janitor", "geosphere", "gridExtra",
                   "scales", "igraph", "sf", "patchwork", "viridis"))
 ```
-3. Place your raw data files in the `data/raw/` directory
-4. Open `cyclistic-analysis-ver2.Rmd` in RStudio
-5. Run the analysis by knitting the R Markdown file
+3. Open `cyclistic-analysis.Rmd` in RStudio
+4. Run the analysis by knitting the R Markdown file
 
 ## Scripts
 - `data_loading.R`: Handles import and initial processing of raw CSV files
