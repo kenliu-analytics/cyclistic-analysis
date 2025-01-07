@@ -1,5 +1,9 @@
 # Cyclistic Bike-Share Analysis
 
+## View the Analysis Report
+
+[![View Analysis Report](https://img.shields.io/badge/Analysis%20Report-View%20Now-brightgreen)](https://<username>.github.io/<repository>/)
+
 ## Overview
 This project analyzes Cyclistic bike-share data from December 2023 to November 2024 to identify conversion strategies for turning casual riders into annual members. The analysis includes temporal patterns, user behavior analysis, and geographic usage patterns to develop data-driven marketing recommendations.
 
@@ -12,7 +16,7 @@ cyclistic-analysis/
 ├── scripts/                           # R scripts for data processing and analysis
 ├── images/                            # Visualization images
 └── data/                              # Data directory (not tracked in git)
-└── docs/                              # Output HTML file
+└── docs/                              # Output HTML file for GitHub Pages
 ```
 
 ## Requirements
