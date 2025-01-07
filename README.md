@@ -8,6 +8,7 @@ This project analyzes Cyclistic bike-share data from December 2023 to November 2
 cyclistic-analysis/
 ├── README.md                          # Project documentation
 ├── cyclistic-analysis.Rmd             # Main analysis R Markdown file
+├── cyclistic-analysis.Rproj           # Main analysis RStudio project file
 ├── scripts/                           # R scripts for data processing and analysis
 ├── images/                            # Visualization images
 └── data/                              # Data directory (not tracked in git)
